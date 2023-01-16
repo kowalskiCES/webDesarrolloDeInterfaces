@@ -34,9 +34,9 @@ module.exports = {
 
           "accent": "#53468b",
 
-          "neutral": "#191D24",
+          "neutral": "#232830",
 
-          "base-100": "#2A303C",
+          "base-100": "#107394",
 
           "info": "#337298",
 
@@ -54,7 +54,7 @@ module.exports = {
 
           "accent": "#53468b",
 
-          "neutral": "#191D24",
+          "neutral": "#232830",
 
           "base-100": "#e9f6ff",
 
