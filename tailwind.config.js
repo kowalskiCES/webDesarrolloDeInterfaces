@@ -12,9 +12,10 @@ module.exports = {
       sans: ['Graphik', 'sans-serif'],
       serif: ['Merriweather', 'serif'],
     },
-    extend: {},
+    extend: {
+    },
   },
-  plugins: [require('@tailwindcss/typography'), require('daisyui')],
+  plugins: [require('@tailwindcss/typography'), require("tailwindcss-animate"), require('daisyui')],
   daisyui: {
     styled: true,
     themes: true,
