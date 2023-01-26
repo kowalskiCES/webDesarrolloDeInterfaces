@@ -15,7 +15,7 @@ module.exports = {
     extend: {
     },
   },
-  plugins: [require('@tailwindcss/typography'), require("tailwindcss-animate"), require('daisyui')],
+  plugins: [require('@tailwindcss/typography'), require("tailwindcss-animate"), require('daisyui'), require('prettier-plugin-tailwindcss')],
   daisyui: {
     styled: true,
     themes: true,

@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth" data-theme="mainThemeDark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/dist/output.css" rel="stylesheet" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/res/favicon-32x32.png"
+    />
+    <title>VAPI</title>
+  </head>
+
+  <body>
+    <div class="hero bg-li min-h-screen max-w-screen bg-cover overflow-hidden">
+      <video
+        class="relative w-auto min-w-full min-h-full max-w-none"
+        src="/res/hero-vid.mp4"
+        type="vide/mp4"
+        autoplay
+        muted
+        loop
+      ></video>
+      <div class="hero-overlay bg-opacity-60"></div>
+      <div class="hero-content text-center text-neutral-content">
+        <div class="min-w-md">
+          <img class="mb-5 shadow-2xl" src="/res/VAPI.png" alt="VAPI" />
+          <p class="animate-in fade-in zoom-in mb-5">
+            A revolutionay not-horror customizable game with literaly your
+            favorite characters (or at least it can have them)
+          </p>
+        </div>
+      </div>
+    </div>
+    <section class="hero bg-neutral p-10">
+      <div class="flex-col lg:flex-row-reverse hero-content">
+        <div class="mockup-phone border-primary shadow-2xl max-w-xs">
+          <div class="camera"></div>
+          <div class="display">
+            <div class="artboard artboard-demo phone-1">
+              <img
+                class="min-w-full min-h-full"
+                src="https://placeimg.com/250/500"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+        <div>
+          <h1 class="slide-in-from-top slide-in-from-left text-5xl font-bold text-primary drop-shadow-md p-5">
+            Straight to the action
+          </h1>
+          <p class="text-secondary mx-auto text-center">
+            It's seems to be free, but you're paying with your live
+          </p>
+          <div class="container flex flex-col text-center mx-auto h-fit w-fit">
+            <div class="mx-auto">
+              <a class="animate-in slide-in-from-top btn btn-primary w-fit m-5">Windows</a>
+              <a class="btn btn-secondary w-fit m-5">Android</a>
+            </div>
+            <div class="mx-auto">
+              <a href="./databases.html" class="btn btn-accent w-fit mx-5">
+                Get MORE API files
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="divide-x-8"></div>
+    <section class="bg-neutral p-10">
+      <h1 class="text-5xl font-extrabold mx-auto m-10 text-center text-primary">
+        See it for yourselve
+      </h1>
+      <div class="carousel w-2/3 sm:w-full max-h-fit mx-auto">
+        <div id="slide1" class="carousel-item relative w-full">
+          <img src="https://placeimg.com/640/480/arch" class="w-full" />
+          <div
+            class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
+          >
+            <a href="#slide4" class="btn btn-circle">❮</a>
+            <a href="#slide2" class="btn btn-circle">❯</a>
+          </div>
+        </div>
+        <div id="slide2" class="carousel-item relative w-full">
+          <img src="https://placeimg.com/640/480/arch" class="w-full" />
+          <div
+            class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
+          >
+            <a href="#slide1" class="btn btn-circle">❮</a>
+            <a href="#slide3" class="btn btn-circle">❯</a>
+          </div>
+        </div>
+        <div id="slide3" class="carousel-item relative w-full">
+          <img src="https://placeimg.com/640/480/arch" class="w-full" />
+          <div
+            class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
+          >
+            <a href="#slide2" class="btn btn-circle">❮</a>
+            <a href="#slide4" class="btn btn-circle">❯</a>
+          </div>
+        </div>
+        <div id="slide4" class="carousel-item relative w-full">
+          <img src="https://placeimg.com/640/480/arch" class="w-full" />
+          <div
+            class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
+          >
+            <a href="#slide3" class="btn btn-circle">❮</a>
+            <a href="#slide1" class="btn btn-circle">❯</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="bg-neutral py-6 sm:py-8 lg:py-12">
+        <div class="max-w-screen-xl px-4 md:px-8 mx-auto">
+          <!-- text - start -->
+          <div class="mb-10">
+            <h2 class="animate-in fade-in-25 hero-content mx-auto text-7xl font-bold text-primary">
+              Meet our Team
+            </h2>
+
+            <p
+              class="max-w-screen-md mx-auto text-secondary md:text-lg text-center"
+            >
+              Look at this bunch of Ls
+            </p>
+          </div>
+          <!-- text - end -->
+
+          <div
+            class="grid sm:grid-cols-1 sm:w-3/4 sm:mx-auto lg:grid-cols-3 gap-x-4 lg:gap-x-8 gap-y-6 sm:gap-y-8 lg:gap-y-12"
+          >
+            <!-- person - start -->
+            <div
+              class="flex flex-col bg-neutral-focus p-3 rounded-2xl sm:flex-row items-center gap-2 md:gap-4"
+            >
+              <div
+                class="w-24 md:w-32 h-24 md:h-fit bg-gray-100 rounded-full border-2 border-primary overflow-hidden shadow-lg"
+              >
+                <img
+                  src="/res/Alberto developer.jpg"
+                  loading="lazy"
+                  alt="Photo by Radu Florin"
+                  class="w-full h-full object-cover object-center"
+                />
+              </div>
+
+              <div>
+                <div
+                  class="text-success md:text-lg font-bold text-center sm:text-left"
+                >
+                  Alberto Ramos
+                </div>
+                <p class="text-sm text-primary text-center sm:text-left">
+                  Developer / CEO
+                </p>
+              </div>
+            </div>
+            <!-- person - end -->
+
+            <!-- person - start -->
+            <div
+              class="flex flex-col bg-neutral-focus p-3 rounded-2xl sm:flex-row items-center gap-2 md:gap-4"
+            >
+              <div
+                class="w-24 md:w-32 h-24 md:h-fit bg-gray-100 rounded-full border-2 border-primary overflow-hidden shadow-lg"
+              >
+                <img
+                  src="/res/Curro developer.jpg"
+                  loading="lazy"
+                  alt="Photo by christian ferrer"
+                  class="w-full h-full object-cover object-center"
+                />
+              </div>
+
+              <div>
+                <div
+                  class="text-success md:text-lg font-bold text-center sm:text-left"
+                >
+                  Francisco Javier Calderon
+                </div>
+                <p class="text-sm text-primary text-center sm:text-left">
+                  Developer / CEO
+                </p>
+              </div>
+            </div>
+            <!-- person - end -->
+
+            <!-- person - start -->
+            <div
+              class="flex flex-col bg-neutral-focus p-5 rounded-2xl sm:flex-row items-center gap-2 md:gap-4"
+            >
+              <div
+                class="w-24 md:w-32 h-24 md:h-fit bg-gray-100 rounded-full border-2 border-primary overflow-hidden shadow-lg"
+              >
+                <img
+                  src="/res/Edu developer.jpg"
+                  loading="lazy"
+                  alt="Photo by Ayo Ogunseinde"
+                  class="w-full h-full object-cover object-center"
+                />
+              </div>
+
+              <div>
+                <div
+                  class="text-success md:text-lg font-bold text-center sm:text-left"
+                >
+                  Eduardo segura
+                </div>
+                <p class="text-sm text-primary text-center sm:text-left">
+                  Developer / CEO
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="bg-neutral">
+      <div class="mb-3 pt-10">
+        <h2 class="hero-content mx-auto text-7xl font-bold text-primary">
+          Records
+        </h2>
+
+        <p
+          class="max-w-screen-md mx-auto text-secondary md:text-lg text-center"
+        >
+          Wil you be the next?
+        </p>
+      </div>
+      <div class="overflow-x-auto p-5 pb-2 mx-auto">
+        <table class="table table-zebra w-2/3 mx-auto sm:w-full text-3xl">
+          <!-- head -->
+          <thead>
+            <tr>
+              <th></th>
+              <th>Name</th>
+              <th>Points</th>
+              <th>Time</th>
+            </tr>
+          </thead>
+          <tbody>
+            <!-- row 1 -->
+            <tr>
+              <th>1</th>
+              <td>Kowalky_anon</td>
+              <td>6565400</td>
+              <td>1:54.456</td>
+            </tr>
+            <!-- row 2 -->
+            <tr>
+              <th>2</th>
+              <td>Pepe Villuela</td>
+              <td>5456845</td>
+              <td>2:50.54</td>
+            </tr>
+            <!-- row 3 -->
+            <tr>
+              <th>3</th>
+              <td>Rick Astley</td>
+              <td>5445741</td>
+              <td>6:14.234</td>
+            </tr>
+            <tr>
+              <th>4</th>
+              <td>Petronas</td>
+              <td>3466745</td>
+              <td>6:45.264</td>
+            </tr>
+            <tr>
+              <th>5</th>
+              <td>Curromagno</td>
+              <td>265</td>
+              <td>7:10.646</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="w-fit mx-auto pb-5">
+        <a href="./records.html" class="btn btn-secondary btn-wide">All records</a>
+      </div>
+    </section>
+    <footer class="p-10 bg-info text-secondary content-start text">
+      <div class="flex flex-grow">
+        <div class="my-auto">
+          <img class="max-w-xs" src="/res/VAPI.png" alt="" />
+          <p>©VAAS<br />Making stupid S**t since 2023</p>
+        </div>
+        <div class="mx-0 my-auto p-10 grid grid-rows-5">
+          <span class="footer-title">Links</span>
+          <a class="p-1 link link-hover">Github</a>
+          <a class="p-1 link link-hover">Twitter</a>
+          <a class="p-1 link link-hover">Instagram</a>
+          <a class="p-1 link link-hover">Reddit</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
