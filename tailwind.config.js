@@ -31,6 +31,8 @@ module.exports = {
 
           "primary": "#73cfea",
 
+          "primary-focus": "#1aa2c9",
+
           "secondary": "#f2f2a8",
 
           "accent": "#53468b",
@@ -39,26 +41,6 @@ module.exports = {
 
           "base-100": "#107394",
           
-          "info": "#337298",
-
-          "success": "#83de7b",
-
-          "warning": "#f6bd20",
-
-          "error": "#e63900",
-        },
-        mainThemeWhite: {
-
-          "primary": "#73cfea",
-
-          "secondary": "#f2f2a8",
-
-          "accent": "#53468b",
-
-          "neutral": "#232830",
-
-          "base-100": "#e9f6ff",
-
           "info": "#337298",
 
           "success": "#83de7b",
